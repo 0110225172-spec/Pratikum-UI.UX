@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Profil Saya - Praktikum 03</title>
+  <style>
+    body {
+      font-family: 'Poppins', Arial, sans-serif;
+      background: linear-gradient(135deg, #f5f7fa, #dbe9f1);
+      margin: 40px;
+      color: #333;
+    }
+
+    fieldset {
+      border: none;
+      background-color: #ffffff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      max-width: 900px;
+      margin: auto;
+    }
+
+    legend {
+      font-weight: bold;
+      font-size: 1.1em;
+      color: #2b5a8a;
+      text-shadow: 1px 1px #e0e0e0;
+    }
+
+    img {
+      border-radius: 15px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    table {
+      width: 65%;
+      float: right;
+    }
+
+    td {
+      padding: 6px 0;
+      vertical-align: top;
+      font-size: 0.95em;
+    }
+
+    h2 {
+      margin: 0;
+      color: #2b5a8a;
+      font-size: 1.4em;
+    }
+
+    article {
+      clear: both;
+      margin-top: 20px;
+      text-align: justify;
+      line-height: 1.6;
+      background-color: #f9fbfd;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
+    }
+
+    /* posisi video seperti awal (tidak di tengah) */
+    video {
+      margin-top: 20px;
+      border-radius: 10px;
+      border: 2px solid #2b5a8a;
+      width: 300px;
+      height: 170px;
+      float: left;
+      margin-right: 15px;
+    }
+
+    .social {
+      float: right;
+      border: none;
+      padding: 15px;
+      width: 160px;
+      background: linear-gradient(145deg, #edf4fa, #ffffff);
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    }
+
+    .social legend {
+      color: #1e4976;
+    }
+
+    .social a {
+      text-decoration: none;
+      color: #0077cc;
+      display: block;
+      margin: 8px 0;
+      transition: 0.3s;
+    }
+
+    .social a:hover {
+      color: #005299;
+      transform: translateX(5px);
+    }
+
+    .gallery {
+      margin: 30px auto;
+      text-align: center;
+      background-color: #f9fbfd;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
+    }
+
+    .gallery legend {
+      color: #1e4976;
+    }
+
+    .gallery img {
+      width: 110px;
+      height: 110px;
+      margin: 6px;
+      border-radius: 8px;
+      border: 2px solid #d0d0d0;
+      transition: transform 0.3s, border-color 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      border-color: #2b5a8a;
+    }
+  </style>
+</head>
+
+<body>
+  <fieldset>
+    <legend>Muhammad Ilyas Adityarahman - 0110225172</legend>
+
+    <img src="tanjiro.jfif" alt="Foto Profil" style="float: left; width: 25%; margin-right: 5%;">
+
+    <table>
+      <tr><td><h2>Kamado Tanjiro</h2></td></tr>
+      <tr><td>Alamat: Tokyo, Jepang</td></tr>
+      <tr><td>Prodi: Teknik Informatika</td></tr>
+      <tr><td>Angkatan: 2025</td></tr>
+      <tr><td>Email: <a href="mailto:KamadoTanjiro@gmail.com">KamadoTanjiro@gmail.com</a></td></tr>
+      <tr><td>Telepon: 081806970022</td></tr>
+    </table>
+
+    <article>
+      <section>
+        Tanjiro Kamado adalah protagonis utama dari serial manga dan anime populer <em>Kimetsu no Yaiba (Demon Slayer)</em>, seorang pemuda baik hati yang bertekad menjadi Demon Slayer untuk mengembalikan adiknya, Nezuko, menjadi manusia setelah keluarganya dibantai iblis. 
+      </section>
+      <section style="margin-top: 12px;">
+        Ia memiliki indra penciuman super, kekuatan fisik yang kuat, dan mampu menggunakan teknik pernapasan air dan matahari dalam pertarungannya melawan iblis.
+      </section>
+    </article>
+
+    
+    <video controls poster="tanjiro.jfif">
+      <source src="Demon Slayer -  Tanjiro vs uppermoon 4  (Hinokami Kagura  Dragon Sun Halo Head Dance).mp4" type="video/mp4">
+      Browser Anda tidak mendukung pemutar video.
+    </video>
+
+    <fieldset class="social">
+      <legend>Social Media</legend>
+      <a href="https://www.instagram.com/m_i_a_r4?igsh=YWwwaDRvMjJpZGF5">Instagram</a>
+      <a href="https://youtube.com/@m.ilyasadityarahman95?si=6CxFKcapFmhUs5wN">YouTube</a>
+    </fieldset>
+
+    <fieldset class="gallery">
+      <legend>Gallery</legend>
+      <img src="Tanjirou.jfif" alt="Foto 1">
+      <img src="Nezuko.jfif" alt="Foto 2">
+      <img src="Zenitsu.jfif" alt="Foto 3">
+      <img src="inosuke.jfif" alt="Foto 4">
+    </fieldset>
+  </fieldset>
+</body>
+</html>
