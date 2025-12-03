@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar JS</title>
+    <script>
+        let buahs = ["mangga", "apel", "pisang"];
+        buahs.push("jeruk");
+        console.log("Buah Index ke -1" + buahs[1]);
+        for (let i = 0; i < buahs.length; i++) {
+            console.log("Buah index ke - " + i + "adalah" + buahs[1]);  
+        } 
+        function isidata() {
+            let selectbuah = document.getElementById("buah");
+            for (let i = 0; i < buahs.length; i++) {
+                let optionbaru = document.createElement("option")
+                optionbaru.value = buahs[i];
+                optionbaru.innerHTML = buahs[i];
+                selectbuah.appendChild(optionbaru)
+            }
+        }
+        function pilih(){
+            let selectbuah = document.getElementById("buah");
+            let buahterpilih = selectbuah.option[selectbuah.selectedIndex].value;
+        }
+            
+        
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
